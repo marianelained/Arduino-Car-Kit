@@ -122,7 +122,7 @@ while(x==0){
   Serial.println(distance);
   moveF_baby();
   
-  if(distance<=6){
+  if(distance<=10){  //distance to which the robot will act upon obatacle detection
     moveB_baby();
     delay(350);
     stop_baby();
